@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Mochiy+Pop+P+One&family=Space+Mono&family=Staatliches&display=swap');
+
+.title {
+    margin-top: 0;
+    padding-top: 2vh;
+    padding-bottom: 10vh;
+    font-family: 'Space Mono', monospace;
+    color: #4A4A4A;
+}
+
+.text-panels {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 10%;
+    height: 600px;
+}
+
+
+.text-panel-left,
+.text-panel-right {
+  width: 45%;
+  height: 100%;
+  padding: 10px;
+  box-shadow: 10px 10px 0px 1px #4A4A4A;
+  background-color: #FFDD67;
+  font-family: 'Space Mono', monospace;
+  color: #4A4A4A;
+}
+
+.text-panel-left {
+    resize: none;
+    outline: none;
+    overflow-x: hidden;
+    font-size: .95em;
+    border: 0;
+}
+  
+  .text-panel-right {
+    text-align: left;
+    font-size: .95em;
+    overflow: auto;
+}
+
+
+.help-button {
+    margin: 20px 0 0 97%;
+    color: #4A4A4A;
+    font-size: 1.7em;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    box-shadow: 10px 10px 0px 1px #4A4A4A;
+    background-color: #FFDD67;
+    cursor: pointer;
+    transition: box-shadow .2s ease-out;
+}
+
+
+
+.help-button:hover{
+    box-shadow: 7px 7px 0px 1px #4A4A4A;
+}
+
+.active{
+    box-shadow: none;
+}
+
+.active:hover {
+    box-shadow: none;
+}
+
+footer {
+    font-size: .8em;
+    line-height: 30px;
+    margin-top: 20px;
+    font-family: 'Space Mono', monospace;
+    position:absolute;
+    width: 100%;
+    bottom: 0;
+    
+}
+
+.nameT{
+    text-decoration: none;
+    color: #4A4A4A;
+}
+
+.nameT:hover{
+    text-decoration: underline;
+}
